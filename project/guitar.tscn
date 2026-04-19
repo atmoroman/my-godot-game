@@ -1,28 +1,40 @@
 [gd_scene format=3 uid="uid://cjvljcbjshhu"]
 
 [ext_resource type="Script" uid="uid://ber7tdu0f20tr" path="res://guitar.gd" id="1_3bt7x"]
+[ext_resource type="AudioStream" uid="uid://bto8i76tf0br8" path="res://audio/Am.wav" id="2_hn8ya"]
 
 [node name="Guitar" type="Node2D" unique_id=24212188]
 script = ExtResource("1_3bt7x")
 
 [node name="Am" type="AudioStreamPlayer2D" parent="." unique_id=556351111]
+stream = ExtResource("2_hn8ya")
 
 [node name="G" type="AudioStreamPlayer2D" parent="." unique_id=429400945]
+stream = ExtResource("2_hn8ya")
 
 [node name="C" type="AudioStreamPlayer2D" parent="." unique_id=786193079]
+stream = ExtResource("2_hn8ya")
 
-[node name="D" type="AudioStreamPlayer2D" parent="." unique_id=944787882]
+[node name="F" type="AudioStreamPlayer2D" parent="." unique_id=944787882]
+stream = ExtResource("2_hn8ya")
 
 [node name="StrumA" type="AudioStreamPlayer2D" parent="." unique_id=900380248]
+stream = ExtResource("2_hn8ya")
 
 [node name="StrumB" type="AudioStreamPlayer2D" parent="." unique_id=130526710]
+stream = ExtResource("2_hn8ya")
 
 [node name="StrumC" type="AudioStreamPlayer2D" parent="." unique_id=2091354091]
+stream = ExtResource("2_hn8ya")
 
 [node name="ChordLabel" type="Label" parent="." unique_id=387543947]
-offset_right = 40.0
-offset_bottom = 23.0
+offset_left = 77.0
+offset_top = 117.0
+offset_right = 117.0
+offset_bottom = 140.0
 
 [node name="PatternButton" type="Button" parent="." unique_id=352877980]
-offset_right = 8.0
-offset_bottom = 8.0
+offset_left = 44.0
+offset_top = 159.0
+offset_right = 152.0
+offset_bottom = 206.0
