@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cjvljcbjshhu"]
 
 [ext_resource type="Script" uid="uid://ber7tdu0f20tr" path="res://guitar.gd" id="1_3bt7x"]
+[ext_resource type="Texture2D" uid="uid://c6f2ldi2h540h" path="res://sprites/background.png" id="2_0ex4y"]
 [ext_resource type="Texture2D" uid="uid://bo2kpvg56unur" path="res://sprites/player_anim.png" id="2_etf1f"]
 [ext_resource type="AudioStream" uid="uid://bto8i76tf0br8" path="res://audio/Am.wav" id="2_hn8ya"]
 [ext_resource type="Texture2D" uid="uid://di2naxkjopagu" path="res://sprites/Am_button.png" id="2_is60w"]
@@ -86,12 +87,29 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0ex4y"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rnb27"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xv1dy"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0sdcj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ixphm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kxbyn"]
+
 [node name="Guitar" type="Node2D" unique_id=24212188]
 script = ExtResource("1_3bt7x")
 
+[node name="Background" type="Sprite2D" parent="." unique_id=62802850]
+position = Vector2(576, 239.49998)
+scale = Vector2(1.5450875, 1.4078497)
+texture = ExtResource("2_0ex4y")
+
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1916132209]
 texture_filter = 1
-position = Vector2(608, 339)
+position = Vector2(600, 425.00003)
 scale = Vector2(3.209, 3)
 sprite_frames = SubResource("SpriteFrames_gyash")
 animation = &"playing"
@@ -99,57 +117,69 @@ animation = &"playing"
 [node name="UI" type="Node2D" parent="." unique_id=196456776]
 
 [node name="DirectionLabel" type="Label" parent="UI" unique_id=815063480]
-offset_left = 982.0
-offset_top = 225.0
-offset_right = 1106.0
-offset_bottom = 294.0
+offset_left = 1008.0
+offset_top = 218.0
+offset_right = 1154.0
+offset_bottom = 287.0
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="ChordLabel" type="Label" parent="UI" unique_id=387543947]
-offset_left = 506.0
-offset_top = 95.0
-offset_right = 644.0
-offset_bottom = 157.0
+offset_left = 483.0
+offset_top = 238.0
+offset_right = 680.0
+offset_bottom = 314.0
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="AmButton" type="Button" parent="UI" unique_id=1118354359]
-offset_left = 32.0
-offset_top = 45.0
-offset_right = 120.0
-offset_bottom = 133.0
+offset_left = 46.0
+offset_top = 64.0
+offset_right = 126.0
+offset_bottom = 144.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_0ex4y")
 icon = ExtResource("2_is60w")
 
 [node name="FButton" type="Button" parent="UI" unique_id=779089879]
-offset_left = 218.0
-offset_top = 50.0
-offset_right = 306.0
-offset_bottom = 138.0
+texture_filter = 1
+offset_left = 196.0
+offset_top = 65.0
+offset_right = 276.0
+offset_bottom = 145.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_rnb27")
 icon = ExtResource("3_etf1f")
 
 [node name="GButton" type="Button" parent="UI" unique_id=889525791]
 offset_left = 122.0
-offset_top = 103.0
-offset_right = 210.0
+offset_top = 111.0
+offset_right = 202.0
 offset_bottom = 191.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_xv1dy")
 icon = ExtResource("4_0ex4y")
 
 [node name="CButton" type="Button" parent="UI" unique_id=357051179]
 offset_left = 124.0
-offset_top = 14.0
-offset_right = 212.0
+offset_top = 22.0
+offset_right = 204.0
 offset_bottom = 102.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_0sdcj")
 icon = ExtResource("5_rnb27")
 
 [node name="UpArrowButton" type="Button" parent="UI" unique_id=419334918]
-offset_left = 998.0
-offset_top = 32.0
-offset_right = 1086.0
+offset_left = 1041.0
+offset_top = 40.0
+offset_right = 1121.0
 offset_bottom = 120.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ixphm")
 icon = ExtResource("6_xv1dy")
 
 [node name="DownArrowButton" type="Button" parent="UI" unique_id=197025185]
-offset_left = 1002.0
-offset_top = 131.0
-offset_right = 1090.0
-offset_bottom = 219.0
+offset_left = 1041.0
+offset_top = 128.0
+offset_right = 1121.0
+offset_bottom = 208.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_kxbyn")
 icon = ExtResource("7_0sdcj")
 
 [node name="Audio" type="Node2D" parent="." unique_id=1714193561]
