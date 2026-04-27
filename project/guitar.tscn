@@ -103,8 +103,8 @@ animations = [{
 script = ExtResource("1_3bt7x")
 
 [node name="Background" type="Sprite2D" parent="." unique_id=62802850]
-position = Vector2(576, 239.49998)
-scale = Vector2(1.5450875, 1.4078497)
+position = Vector2(617.00006, 224.99994)
+scale = Vector2(1.6554509, 1.4573376)
 texture = ExtResource("2_0ex4y")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1916132209]
