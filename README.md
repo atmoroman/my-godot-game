@@ -11,7 +11,7 @@ Class Group: TU850
 
 # Video
 
-[[YouTube](https://youtu.be/JEpfwYZcqXI)
+[YouTube](https://youtu.be/JEpfwYZcqXI)
 
 # Screenshots
 
@@ -45,7 +45,6 @@ Or you can use a touchpad or a mouse
 So, basically,  when the user presses some buttons, the sounds are being played and then some animations too.
 
 
-
 # References
 * My in-game character was based on a character from the movie "Coco"
 
@@ -60,63 +59,4 @@ First of all, my general understanding of Godot improved significantly. Now I ca
 Also, I learned how to draw simple 2d pixelarts and animations.
 
 
-
-## Below is how to use Markdown. You can delete this:
-
-## This is how to markdown text:
-
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-
-This is a table:
-
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
 
