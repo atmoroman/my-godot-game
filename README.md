@@ -11,19 +11,13 @@ Class Group: TU850
 
 # Video
 
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+[![YouTube](https://youtu.be/JEpfwYZcqXI)
 
 # Screenshots
 
 Gameplay 
 
 ![An image](./project/sprites/Game.png)
-
-
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
 
 
 # Description of the project
@@ -33,40 +27,39 @@ Simple 2d music game where users can play recorded guitar sounds on their keyboa
 # Instructions for use
 
 There are 6 buttons to press on the keyboard:
+
 A - Plays recorded guitar sounds of the Am chord
+
 S - Plays recorded guitar sounds of the G chord
+
 D - Plays recorded guitar sounds of the C chord
+
 D - Plays recorded guitar sounds of the F chord
+
 Up and Down Arrows - change the strumming pattern
+
+Or you can use a touchpad or a mouse
 
 
 # How it works:
+So, basically,  when the user presses some buttons, the sounds are being played and then some animations too.
 
-Explain in your own words
 
-# List of classes/assets in the project
-
-| Class/asset | Source |
-|-----------|-----------|
-| MyClass.cs | Self written |
-| MyClass1.cs | Modified from [reference]() |
-| MyClass2.cs | From [reference]() |
 
 # References
-* Item 1
-* Item 2
+* My in-game character was based on a character from the movie "Coco"
+
 
 # What I am most proud of in the assignment
+I am proud that I was able to combine my favourite music instrument and my skills to make a simple sound game based on recorded sound.
 
-- Each team member
-- Must be human written. Reflect on what you achieved and share it
+And also that I draw some cool textures and animations.
 
 # What I learned
+First of all, my general understanding of Godot improved significantly. Now I can make a recorded sound be played with code
+Also, I learned how to draw simple 2d pixelarts and animations.
 
-- Each team member
-- Must be human written. Reflect on what you learned and share it
 
-# Proposal submitted earlier can go here (if there is one):
 
 ## Below is how to use Markdown. You can delete this:
 
