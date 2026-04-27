@@ -11,7 +11,7 @@ Class Group: TU850
 
 # Video
 
-[![YouTube](https://youtu.be/JEpfwYZcqXI)
+[[YouTube](https://youtu.be/JEpfwYZcqXI)
 
 # Screenshots
 
