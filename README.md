@@ -17,7 +17,7 @@ Class Group: TU850
 
 This is an image using a relative URL:
 
-![An image](../project/sprites/Game.png)
+![An image](./project/sprites/Game.png)
 
 This is an image using an absolute URL:
 
